@@ -1,0 +1,85 @@
+.footer-div {
+  background-color: #1c0d04;
+  display: flex;
+  justify-content: center;
+  padding: 50px 90px 50px 30px;
+  color: whitesmoke;
+}
+
+.logo {
+  margin-right: 50px;
+}
+
+.logo-img {
+  height: 76px;
+  margin-top: 19px;
+  max-width: 100%;
+}
+
+h6 {
+  font-weight: bold !important;
+}
+
+a {
+  color: whitesmoke !important;
+  text-decoration: none !important;
+  border-radius: 10px;
+  padding: 2px 6px;
+  font-size: 14px;
+}
+
+a:hover {
+  border-image-slice: 1;
+  border-image-source: linear-gradient(90deg, #fa7328, #ee9f15);
+  border-style: solid;
+  border-width: 0 0 2px;
+  cursor: pointer;
+}
+
+p {
+  color: whitesmoke;
+  margin-left: 10px;
+}
+
+.social-links {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-right: 100px;
+}
+.info,
+.products,
+.community,
+.follow-ups {
+  display: flex;
+  flex-direction: column;
+}
+
+.follow-ups {
+  align-items: flex-start;
+  justify-content: space-evenly;
+}
+
+.contacts {
+  margin-top: 10px;
+  padding-right: 10px;
+}
+
+@media only screen and (max-device-width: 768px) {
+  .footer-div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .logo-img {
+    margin-left: 20px;
+    margin-bottom: 20px;
+  }
+
+  .col-lg-2,
+  .contacts {
+    margin-top: 26px;
+  }
+}

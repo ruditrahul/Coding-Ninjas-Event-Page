@@ -1,0 +1,55 @@
+.main-mobile-div {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  margin: 10px;
+}
+
+.btn-secondary,
+.dropdown-item {
+  background: whitesmoke !important;
+  color: black !important;
+}
+
+.dropdown-item:hover {
+  background: linear-gradient(90deg, #fa7328, #ee9f15) !important;
+  color: whitesmoke !important;
+}
+
+.mobile-category-div {
+  margin-top: 15px;
+}
+
+.sub-category-and-tags-div {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 20rem;
+  margin: 25px;
+}
+
+.drop-down-menu {
+  top: 70px !important;
+}
+
+.card-div {
+  height: fit-content;
+}
+
+.highlight-dropdown {
+  background: #ee9f15 !important;
+  color: #ee9f15 !important;
+  font-size: 900px !important;
+}
+
+.chip-div {
+  overflow-x: scroll !important;
+  display: flex;
+  max-width: 360px;
+  margin-bottom: 20px;
+}
+
+.chip {
+  margin: 0 4px !important;
+}

@@ -1,0 +1,15 @@
+.login-btn {
+  margin: 5px !important;
+  color: #f9601e !important;
+  background: #feeee5 !important;
+}
+
+.enroll-btn {
+  margin: 5px !important;
+  color: #fff !important;
+  background: linear-gradient(90deg, #fa7328, #ee9f15) !important;
+}
+
+.nav-item {
+  margin-left: 10px !important;
+}

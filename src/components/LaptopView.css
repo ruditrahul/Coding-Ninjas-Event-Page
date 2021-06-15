@@ -1,0 +1,39 @@
+.category-div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.category-btn {
+  margin: 25px 20px !important;
+  color: grey !important;
+  background-color: whitesmoke !important;
+  display: inline !important;
+}
+
+.highlight {
+  background: linear-gradient(90deg, #fa7328, #ee9f15) !important;
+  color: whitesmoke !important;
+}
+
+.subCategory-btn {
+  text-transform: none !important;
+  text-align: left !important;
+  width: 12vw !important;
+  font-size: 14px !important;
+  margin: 2px 0 !important;
+}
+
+.tag-btn {
+  text-transform: none !important;
+  width: 18vw !important;
+  font-size: 14px !important;
+  margin: 2px 0 !important;
+}
+
+.category-btn:hover,
+.subCategory-btn:hover,
+.tag-btn:hover {
+  background: linear-gradient(90deg, #fa7328, #ee9f15) !important;
+  color: whitesmoke !important;
+}

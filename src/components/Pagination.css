@@ -1,0 +1,48 @@
+.pagination-div {
+  display: flex;
+  justify-content: center;
+}
+
+.control-div {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 14px;
+  color: #616161;
+  font-size: 16px;
+  font-weight: 600;
+  padding-top: 12px;
+}
+
+.control-div > p {
+  color: gray;
+}
+.numbers {
+  display: flex;
+  width: 80px;
+  justify-content: space-evenly;
+}
+
+.numbers > p {
+  color: gray;
+
+  letter-spacing: 1px;
+}
+
+.control-btn {
+  height: 50px !important;
+  width: 40px !important;
+  background: linear-gradient(90deg, #fa7328, #ee9f15);
+  box-shadow: 0 2px 4px rgb(24 4 50 / 24%) !important;
+  border-radius: 4px !important;
+  cursor: pointer !important;
+  color: whitesmoke !important;
+  transition: transform 300ms ease !important;
+}
+
+.disabled {
+  background: rgb(185, 185, 185);
+}
+
+.control-btn:hover {
+  transform: scale(1.04);
+}
