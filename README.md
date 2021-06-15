@@ -1,3 +1,14 @@
+Coding Ninjas Event Page Clone - 
+
+1.)Built using React and ReactStrap & Material UI for styling.
+2.)The clone's layout is slighlty different as compared to the original Coding Ninjas Event Page, so there are two pages, one for desktop view and other is mobile view.
+3.)Have maintained a different CSS file for different JS files to reduce the complexity.
+4.)Hosted using Firebase Hosting(https://coding-ninjas-59a22.web.app/).
+
+
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
